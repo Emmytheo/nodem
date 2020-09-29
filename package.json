@@ -1,0 +1,24 @@
+{
+  "name": "fixbotwork",
+  "version": "1.0.0",
+  "description": "\"Fixbot Worker role\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "GPS",
+    "TRACKING",
+    "WORKER",
+    "ROLE"
+  ],
+  "author": "Emmytheo24/7",
+  "license": "ISC",
+  "dependencies": {
+    "crc16-ccitt-node": "^1.0.5",
+    "express": "^4.17.1",
+    "node.extend": "^2.0.2",
+    "gps-tracking": "^1.1.1"
+  }
+}
